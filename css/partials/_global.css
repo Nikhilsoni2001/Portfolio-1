@@ -1,0 +1,105 @@
+@import url(./variables.css);
+
+.navbar .navbar-nav a:hover {
+    background: var(--color-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar .active {
+    background: var(--color-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.title-text {
+    font: normal bold 50px/72px var(--roboto);
+}
+
+p.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--roboto);
+}
+
+.btn-primary:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: background.6s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--color-main);
+    color: white;
+    transition: background.6s ease;
+}
+
+.skills-subheadings {
+    font-size: 2rem;
+}
+
+.thumbs {
+    margin-top: 1.5rem;
+}
+
+.thumbnail {
+    padding: 0 2rem;
+}
+
+.thumbnail>i {
+    font-size: 3rem;
+}
+
+.caption {
+    margin-top: 0.5rem;
+}
+
+/* icons */
+.fa-code {
+    color: #FFA500;
+}
+
+.fa-java {
+    color: #5382a1;
+}
+
+.fa-html5 {
+    color: #e34c26;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-android {
+    color: #3DDC84;
+}
+
+.fa-mobile {
+    color: #2196f3;
+}
+
+.fa-bold {
+    color: #080135;
+}
+
+.fa-database {
+    color: #2196f3;
+}
+
+.fa-fire {
+    color: #FFA611;
+}
+
+.fa:hover,
+.fas:hover,
+.fab:hover {
+    color: #616161;
+    transition: color .8s ease;
+}
